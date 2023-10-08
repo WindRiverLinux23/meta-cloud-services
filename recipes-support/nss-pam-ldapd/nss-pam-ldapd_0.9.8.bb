@@ -16,6 +16,7 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
 SRC_URI = "\
 	http://arthurdejong.org/nss-pam-ldapd/${BPN}-${PV}.tar.gz \
+	file://0001-getent.py-chsh.py-switch-to-python3.patch \
 	file://nslcd.init \
 	file://nslcd.service \
 	"
