@@ -10,4 +10,5 @@ RDEPENDS:${PN} += "python3-pyyaml \
 SRC_URI += " \
     file://python3-ensure-py-scripts-use-py3-for-shebang.patch \
     file://CVE-2023-5115.patch \
+    file://CVE-2023-5764.patch \
 "
